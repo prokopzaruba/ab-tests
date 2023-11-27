@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.App {
+  background-color: #e8f5ff;
+  text-align: center;
+  width: 92rem;
+  padding: 4.8rem 4.8rem;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+/* role selection */
+
+.role-selection {
+  margin-bottom: 2.4rem;
+  font-size: 1.8rem;
+}
+
+.first-role-label {
+  margin-right: 4rem;
+}
+
+.role-input {
+  margin-left: 0.8rem;
+}
+
+/*  */
+
+.info-label {
+  font-size: 1.4rem;
+}
+
+.country-facts {
+  margin-bottom: 4.8rem;
+  margin-left: 4rem;
+  text-align: left;
+}
+
+.country-form {
+  display: inline-block;
+}
+
+.country-input {
+  margin-right: 0.4rem;
+  height: 2.2rem;
+  display: inline;
+}
+
+.country-names {
+  display: inline-block;
+}
+
+.country-info {
+  display: inline-block;
+  margin-left: 2.4rem;
+}
+
+.show-info-button {
+  width: 8rem;
+  background-color: black;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.articles {
+  display: flex;
+  justify-content: center;
+  gap: 2.8rem;
+  margin-bottom: 6rem;
+}
+
+.article {
+  width: 23.2rem;
+  padding: 0.6rem;
+  background-color: white;
+  border-radius: 1.2rem;
+  cursor: pointer;
+}
+
+.article-image {
+  width: 22rem;
+  border-radius: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.article-heading {
+  font-size: 1.6rem;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.country-of-the-day {
+  padding: 1.6rem 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: #e8f5ff;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.country-of-the-day-main {
+  width: 40rem;
+  text-align: left;
+}
+
+.country-of-the-day-heading {
+  font-size: 1.6rem;
+  margin-bottom: 1.2rem;
+}
+
+.country-heading {
+  font-size: 3.6rem;
+  display: inline;
+}
+
+.flag-with-heading {
+  margin-bottom: 1.2rem;
+}
+
+.flag {
+  width: 3.2rem;
+  display: inline;
+  margin-right: 1.2rem;
+}
+.country-description {
+  text-align: left;
+  font-size: 1.6rem;
+}
+
+.country-paragraph {
+  margin-bottom: 1.4rem;
+}
+.read-more {
+  color: blue;
+  display: inline;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.additional-info {
+  width: 38rem;
+}
+
+.button-set {
+  display: flex;
+  justify-content: center;
+  gap: 1px;
+  margin-bottom: 0.8rem;
+}
+
+.additional-info-button {
+  background-color: black;
+  width: 6.8rem;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.additional-info-heading {
+  font-size: 1.6rem;
+  margin-bottom: 0.4rem;
+}
+
+.test {
+  margin-bottom: 4rem;
+}
+
+.test-input {
+  margin: 0.8rem auto;
+  width: 20rem;
+  display: block;
+}
+
+.test-select {
+  margin-bottom: 8rem;
+  width: 20rem;
+}
+
+.test-style-select {
+  margin-bottom: 2.4rem;
+  width: 20rem;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.article-content {
+  margin-bottom: 2.4rem;
+  resize: none;
+  height: 8rem;
+  width: 20rem;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.versions {
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+}
+
+.version-heading {
+  margin-bottom: 0.8rem;
+  font-size: 1.4rem;
+}
+
+.test-button {
+  width: 10rem;
+  height: 3.6rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  background-color: #3d1b4f;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dashboard {
+  height: 36rem;
+  width: 56rem;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 4rem;
+  padding: 2.4rem;
+}
+
+.active-heading {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.dashboard-headings {
+  display: flex;
+  justify-content: space-around;
+}
+
+.dashboard-heading {
+  font-size: 2rem;
+  display: inline;
+  margin-bottom: 2.4rem;
+}
+
+.dashboard-table {
+  padding: 0.8rem 1.6rem;
+  height: 12rem;
+  margin: 0 auto;
+  width: 40rem;
+  font-size: 1.6rem;
+  border: 1px solid;
+  border-radius: 8px;
+  margin-bottom: 3.2rem;
+}
+
+.first-column {
+  text-align: left;
+}
+
+.thead {
+  margin-bottom: 2rem;
+}
+
+.admin-nav {
+  margin-bottom: 2.4rem;
+}
+
+.admin-nav-button {
+  width: 10rem;
+  font-weight: bold;
+  background-color: #3d1b4f;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.active-button {
+  background-color: #727272;
+}
+
+.dashboard-message {
+  font-size: 2.4rem;
+}
